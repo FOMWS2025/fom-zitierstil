@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0">
+  <info>
+    <title>FOM Chicago Footnote Style</title>
+    <id>http://www.zotero.org/styles/fom-chicago-footnote</id>
+    <link href="http://www.zotero.org/styles/chicago-fullnote-bibliography" rel="self"/>
+    <author>
+      <name>OpenAI Assistant</name>
+    </author>
+    <category citation-format="note"/>
+    <category field="generic-base"/>
+    <updated>2025-05-24T00:00:00+00:00</updated>
+  </info>
+  <citation>
+    <layout delimiter="; " suffix=".">
+      <text term="see" prefix="Vgl. " text-case="capitalize-first" suffix=" "/>
+      <names variable="author">
+        <name form="long" initialize-with=". " delimiter=", " />
+      </names>
+      <text variable="title" prefix=", " suffix=", "/>
+      <date variable="issued">
+        <date-part name="year"/>
+      </date>
+      <text variable="page" prefix=", S. "/>
+    </layout>
+  </citation>
+  <bibliography>
+    <layout hanging-indent="true" delimiter=" ">
+      <names variable="author">
+        <name form="long" initialize-with=". " delimiter=", "/>
+        <label form="short" prefix=" (" suffix=")"/>
+      </names>
+      <text variable="title" prefix=": " suffix=","/>
+      <text variable="publisher-place" suffix=": "/>
+      <text variable="publisher" suffix=", "/>
+      <date variable="issued">
+        <date-part name="year"/>
+      </date>
+    </layout>
+  </bibliography>
+</style>
